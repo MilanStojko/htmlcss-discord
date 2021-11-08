@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #3161e0;
+    height: 80px;
+    width: 100%;
+    vertical-align: center;
+    line-height: 80px;
+}
+.logo{
+    float: left;
+    width: 19%;
+}
+.logosvg{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.menunav{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+.buttoncontainer{
+    float: right;
+    margin-right: 10%;
+}
+nav div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul li{
+    list-style: none;
+    display: inline;
+
+    vertical-align: center;
+    font-weight: 600;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+.buttonlogin{
+    background-color: white;
+    border-radius: 25px;
+    height: 34px;
+    padding: 7px 16px;
+}
